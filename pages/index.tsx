@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 <Link href="/events">Digex 2022 </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
-                <Link href="https://drive.google.com/file/d/1MuFWBH7L3RKDByP9haFTnglr-txRRgwS/view?usp=sharing">Event Invite </Link>
+                <Link href="https://drive.google.com/file/d/1mJGJfJLeRMvGCbc9hcVQq3uTtJJgx9Ym/view?usp=sharing">Event Invite </Link>
               </div>
             </div>
           </div>
