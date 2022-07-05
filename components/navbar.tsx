@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import DigexLogo from "../public/Digex-logo.svg"
+import DigexLogo from "../public/Digex-logo.png"
 
 function NavLink({to, children}) {
     return <a href={to} className={`ml-4`}>
