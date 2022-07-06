@@ -261,5 +261,27 @@
         "role": "Member"
       }
     ]
+  },
+  
+  {
+    "year": "6th",
+    "members": [
+      {
+        "name": "Aaditya Raj Gogia",
+        "role": "Member"
+      },
+      {
+        "name": "Adith Bharihoke ",
+        "role": "Member"
+      },
+      {
+        "name": "Arnav Agarwal",
+        "role": "Member"
+      },
+      {
+        "name": "Vihaan Segal",
+        "role": "Member"
+      }
+    ]
   }
 ]
