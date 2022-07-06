@@ -17,7 +17,7 @@ const About: NextPage = () => {
       </Head>
       <Navbar/>
       <Container>
-        <div className="px-12">
+        <div>
           <h1 className="flex text-4xl font-bold justify-center align-center py-12">
               About
           </h1>
