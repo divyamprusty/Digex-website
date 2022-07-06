@@ -26,10 +26,7 @@
         "name": "Ritvik Kumar",
         "role": "Member"
       },
-      {
-        "name": "Suhani Sethi",
-        "role": "Member"
-      },
+    
       {
         "name": "Aaditya Gaur",
         "role": "Member"
@@ -261,6 +258,28 @@
       },
       {
         "name": "Aviral Goel",
+        "role": "Member"
+      }
+    ]
+  },
+  
+  {
+    "year": "6th",
+    "members": [
+      {
+        "name": "Aaditya Raj Gogia",
+        "role": "Member"
+      },
+      {
+        "name": "Adith Bharihoke ",
+        "role": "Member"
+      },
+      {
+        "name": "Arnav Agarwal",
+        "role": "Member"
+      },
+      {
+        "name": "Vihaan Segal",
         "role": "Member"
       }
     ]
