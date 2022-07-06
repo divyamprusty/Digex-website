@@ -7,7 +7,7 @@ const Card = ({ children, style, className}) => (
     style={{
       flexBasis: 1,
       border: '1px solid',
-      padding: '1rem',
+      padding: '2rem',
       borderRadius: '10px',
       ...style,
     }}

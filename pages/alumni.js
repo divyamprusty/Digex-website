@@ -26,6 +26,11 @@ const Alumni = () => {
       <Container>
         <div>
           <h1 className="flex text-4xl font-bold pt-12 justify-center items-center">Alumni</h1>
+          <div className="text-3xl font-bold py-12 text-center">Honorary Alumni</div>
+              <div className={styles.card}>
+                <h1 className="text-2xl">Krishnav Gaind</h1>
+                <h1>Member</h1>
+              </div>
           {data.map((batch, index) => (
             <div key={index}>
               <h2 className="text-3xl font-bold py-12 text-center">{`${batch.year}`}</h2>
