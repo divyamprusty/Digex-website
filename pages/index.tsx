@@ -51,6 +51,9 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="flex justify-center items-center mb-28">
+          <video loop autoPlay width="800" height="450" src="/digex-trailer.mp4"></video>
+        </div>
+        {/* <div className="flex justify-center items-center mb-28">
           <iframe
             width="800"
             height="450"
@@ -59,7 +62,7 @@ const Home: NextPage = () => {
             frameBorder="0"
             allowFullScreen
           />
-        </div>
+        </div> */}
         <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
           <img
