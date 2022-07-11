@@ -36,16 +36,22 @@ const Home: NextPage = () => {
                 <Link href="/events">Digex 2022 </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
-                <Link href="https://drive.google.com/file/d/1mJGJfJLeRMvGCbc9hcVQq3uTtJJgx9Ym/view?usp=sharing">Event Invite </Link>
+                <a href="https://drive.google.com/file/d/1mJGJfJLeRMvGCbc9hcVQq3uTtJJgx9Ym/view?usp=sharing">
+                  Event Invite{" "}
+                </a>
               </div>
             </div>
           </div>
           <div className="mt-8 md:mt-0">
-            <img
-              src="/illustration.svg"
-              alt="illustration"
-              style={{ height: 400, width: "auto" }}
-            />
+            <iframe
+              width="500"
+              height="280"
+              src="https://www.youtube.com/embed/eK7ozKWV7_4?autoplay=1&controls=0&showinfo=0"
+              frameBorder="0"
+              allow="autoPlay"
+              allowFullScreen
+              className=""
+            ></iframe>
           </div>
         </div>
         <div className="mt-8 md:mt-0 flex justify-center items-center pb-16">
@@ -58,7 +64,9 @@ const Home: NextPage = () => {
         </div>
         <div className="flex flex-col jusitfy-center items-center sm:my-12 my-0">
           <div className="flex flex-col justify-center items-center mb-8">
-            <h1 className="sm:text-5xl text-3xl font-semibold">Our Organisation</h1>
+            <h1 className="sm:text-5xl text-3xl font-semibold">
+              Our Organisation
+            </h1>
             <p className="sm:text-xl text-md text-center w-2/3 my-4 text-gray-600 dark:text-gray-100">
               Digex is the photography and film-making student organization at
               Delhi Public School, R.K. Puram which serves as an outlet for
