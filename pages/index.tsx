@@ -42,17 +42,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="mt-8 md:mt-0">
-            <iframe
-              width="500"
-              height="280"
-              src="https://www.youtube.com/embed/eK7ozKWV7_4?autoplay=1&controls=0&showinfo=0"
-              frameBorder="0"
-              allow="autoPlay"
-              allowFullScreen
-              className=""
-            ></iframe>
-          </div>
+        
         </div>
         <div className="mt-8 md:mt-0 flex justify-center items-center pb-16">
           <img
