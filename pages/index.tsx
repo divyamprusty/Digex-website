@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/aria-proptypes */
 /* eslint-disable @next/next/no-img-element */
 import { Container } from "@mui/material";
 import type { NextPage } from "next";
@@ -50,19 +51,31 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div className="flex justify-center items-center mb-28">
-          <video loop autoPlay width="800" height="450" src="/digex-trailer.mp4"></video>
-        </div>
         {/* <div className="flex justify-center items-center mb-28">
+          <video
+            width="800"
+            height="450"
+            playsInline
+            autoPlay
+            loop
+            aria-controls="false"
+          >
+            <source
+              src="https://cdn.discordapp.com/attachments/860789829209161728/996112007562547293/trailer_draft_4.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div> */}
+        <div className="flex justify-center items-center mb-28">
           <iframe
             width="800"
             height="450"
-            src="https://www.youtube.com/embed/5cFQ6YKTX_g"
+            src="/digex-trailer.mp4"
             allow="autoPlay"
             frameBorder="0"
             allowFullScreen
           />
-        </div> */}
+        </div>
         <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
           <img
