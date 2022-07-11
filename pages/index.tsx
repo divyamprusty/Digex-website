@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             className="justify-center items-center"
             src="/allen.png"
             alt="illustration"
-            style={{ height: 70, width: "auto" }}
+            style={{ height: 100, width: "auto" }}
           />
         </div>
         <div className="flex flex-col jusitfy-center items-center sm:my-12 my-0">
