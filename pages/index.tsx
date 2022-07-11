@@ -54,13 +54,14 @@ const Home: NextPage = () => {
           <iframe
             width="800"
             height="450"
-            src="https://www.youtube.com/embed/8NDF_668c8w?autoplay=1;&controls=0;&modestbranding=1;&rel=0;&loop=1;&enablejsapi=1;"
+            src="https://www.youtube.com/embed/8NDF_668c8w?autoplay=1&;controls=0;"
+            allow="autoPlay"
             frameBorder="0"
             allowFullScreen
-            allow="autoPlay"
           />
         </div>
-        <div className="mt-8 md:mt-0 flex justify-center items-center pb-16">
+        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
+          <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
           <img
             className="justify-center items-center"
             src="/allen.png"
