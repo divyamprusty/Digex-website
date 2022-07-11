@@ -54,7 +54,7 @@ const Home: NextPage = () => {
           <iframe
             width="800"
             height="450"
-            src="https://youtu.be/5cFQ6YKTX_g"
+            src="https://www.youtube.com/embed/5cFQ6YKTX_g"
             allow="autoPlay"
             frameBorder="0"
             allowFullScreen
