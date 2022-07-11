@@ -42,7 +42,23 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-        
+          <div>
+            <img
+              src="/illustration.svg"
+              alt="illustration"
+              style={{ height: 400, width: "auto" }}
+            />
+          </div>
+        </div>
+        <div className="flex justify-center items-center mb-28">
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/8NDF_668c8w?autoplay=1;&controls=0;&modestbranding=1;&rel=0;&loop=1;&enablejsapi=1;"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoPlay"
+          />
         </div>
         <div className="mt-8 md:mt-0 flex justify-center items-center pb-16">
           <img
