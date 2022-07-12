@@ -33,7 +33,7 @@ const Events = () => {
           </h1>
           <h5 className="flex text-2xl font-bold py-4 justify-center items-center">
             <a
-              href="https://drive.google.com/file/d/1mJGJfJLeRMvGCbc9hcVQq3uTtJJgx9Ym/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MOno8ZT91EjpLeuwzecmVHhG0CNlRvAN/view"
               target="_blank"
             >
               Click to see detailed Guidelines.
