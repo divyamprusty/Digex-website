@@ -86,10 +86,6 @@
       {
         "name": "Shivangi Priya",
         "role": "Member"
-      },
-      {
-        "name": "Yash Aggarwal",
-        "role": "Member"
       }
     ]
   },
@@ -170,7 +166,23 @@
     "year": "10th",
     "members": [
       {
+        "name": "Aikagra Gupta",
+        "role": "Member"
+      },
+      {
+        "name": "Aryamaan Goswamy",
+        "role": "Member"
+      },
+      {
         "name": "Samriddhi",
+        "role": "Member"
+      },
+      {
+        "name": "Shiven Gupta",
+        "role": "Member"
+      },
+      {
+        "name": "Sonakshi Segal",
         "role": "Member"
       }
     ]
@@ -179,31 +191,46 @@
     "year": "9th",
     "members": [
       {
+        "name": "Aaryan Jaiswal",
+        "role": "Member"
+      },
+      {
         "name": "Aditya Goel",
         "role": "Member"
       },
       {
-        "name": "Abhiveer Luthra",
+        "name": "Ananya Shrivastav",
         "role": "Member"
       },
       {
-        "name": "Yasha Kansotia",
+        "name": "Avaanie A Lunia",
+        "role": "Member"
+      },
+      
+      {
+        "name": "K. Sornapureesan",
+        "role": "Member"
+      },
+       {
+        "name": "Manvik Kumar",
         "role": "Member"
       },
       {
         "name": "Shaurya Malhotra",
         "role": "Member"
       },
+      
+     
       {
-        "name": "Aaryan Jaiswal",
+        "name": "Sonakshi Segal",
         "role": "Member"
       },
       {
+        "name": "Shiven Jain",
+        "role": "Member"
+      },
+       {
         "name": "Veda Dua",
-        "role": "Member"
-      },
-      {
-        "name": "Suhaan Oberoi",
         "role": "Member"
       }
     ]
@@ -212,19 +239,12 @@
     "year": "8th",
     "members": [
       {
-        "name": "Tiara Gera",
+        "name": "Baarika Ayekpam",
         "role": "Member"
       },
+    
       {
-        "name": "Shivam Chaudhary",
-        "role": "Member"
-      },
-      {
-        "name": "Vaibhav Manjumdar",
-        "role": "Member"
-      },
-      {
-        "name": "Arnav Sakshya",
+        "name": "Samriddhi Bhatia",
         "role": "Member"
       }
     ]
@@ -232,10 +252,6 @@
   {
     "year": "7th",
     "members": [
-      {
-        "name": "Vihaan Gupta",
-        "role": "Member"
-      },
       {
         "name": "Reyhaan Punchhi",
         "role": "Member"
@@ -249,15 +265,11 @@
         "role": "Member"
       },
       {
-        "name": "Vani Menon",
+        "name": "Showaiz Noor Ahmed",
         "role": "Member"
       },
       {
         "name": "Manya Gupta",
-        "role": "Member"
-      },
-      {
-        "name": "Aviral Goel",
         "role": "Member"
       }
     ]
