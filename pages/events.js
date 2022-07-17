@@ -38,6 +38,7 @@ const Events = () => {
             >
               Click to see detailed Guidelines.
             </a>
+</h5>
  <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           
           <img
@@ -47,7 +48,7 @@ const Events = () => {
             style={{ height: 100, width: "auto" }}
           />
         </div>
-          </h5>
+          
           {data.map((events, index) => (
             <div key={index}>
               <Grid>
