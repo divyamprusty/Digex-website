@@ -39,10 +39,10 @@ const Events = () => {
               Click to see detailed Guidelines.
             </a>
  <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
-          <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
+          
           <img
             className="justify-center items-center"
-            src="/timeline.svg"
+            src="/Timeline.svg"
             alt="illustration"
             style={{ height: 100, width: "auto" }}
           />
