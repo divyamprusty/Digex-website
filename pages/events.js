@@ -31,14 +31,10 @@ const Events = () => {
           <h1 className="flex text-4xl font-bold py-4 justify-center items-center">
             Digex 2022
           </h1>
-          <h5 className="flex text-2xl font-bold py-4 justify-center items-center">
-            <a
-              href="https://drive.google.com/file/d/1MOno8ZT91EjpLeuwzecmVHhG0CNlRvAN/view"
-              target="_blank"
-            >
-              Click to see detailed Guidelines.
-            </a>
-</h5>
+          <h3 className="flex text-2xl font-bold py-3 justify-center items-center">
+            Topic for Hi Res : Breaking the Fourth Wall with Silence
+
+          </h3>
  <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           
           <img
