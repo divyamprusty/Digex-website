@@ -35,15 +35,13 @@ const Events = () => {
             Topic for Hi Res : Breaking the Fourth Wall with Silence
 
           </h3>
- <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
-          
-          <img
-            className="justify-center items-center"
-            src="/Timeline.svg"
-            alt="illustration"
-            style={{ height: 100, width: "auto" }}
-          />
-        </div>
+          <h3 className="flex text-2xl font-bold py-3 justify-center items-center">
+            
+           Submission Link for Hi Res : <a href="https://linktr.ee/Digex22"> https://linktr.ee/Digex22
+                 
+                </a>
+          </h3>
+ 
           
           {data.map((events, index) => (
             <div key={index}>
@@ -67,9 +65,9 @@ const Events = () => {
                       }}
                     >
                       <h1 className="text-1xl mb-2" style={{ color: "red" }}>
-                        <a href={desc.link} target="_blank">
-                          Register
-                        </a>
+                        {/* <a href={desc.link} target="_blank">
+                          Submission
+                        </a> */}
                       </h1>
                     </div>
                     <h1>{desc.description}</h1>
