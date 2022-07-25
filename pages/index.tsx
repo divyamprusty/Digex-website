@@ -67,7 +67,20 @@ const Home: NextPage = () => {
             />
           </video>
         </div> */}
-        <div className="flex justify-center items-center mb-28">
+        <h3 className="flex text-5xl font-bold py-4 justify-center items-center">
+            Results Of Round 1 
+
+          </h3>
+        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
+          
+          <img
+            className="justify-center items-center"
+            src="/result1.png"
+            alt="illustration"
+            style={{ height: 1000, width: "auto" }}
+          />
+        </div>
+        {/* <div className="flex justify-center items-center mb-28">
           <iframe
             width="800"
             height="450"
@@ -76,7 +89,9 @@ const Home: NextPage = () => {
             frameBorder="0"
             allowFullScreen
           />
-        </div>
+        </div> */}
+
+        
         <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
           <img
