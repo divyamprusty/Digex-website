@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
-                <Link href="/events">Hi Res Topic 
+                <Link href="/events">Hi Res
  </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
