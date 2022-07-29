@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
-                <Link href="/events">Hi Res
+                <Link href="/events">Hi Res Topic 
  </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
@@ -92,7 +92,21 @@ const Home: NextPage = () => {
         </div> */}
 
         
-        
+        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
+          <h1 className="text-4xl font-semibold mb-4">Supported by</h1>
+          <img
+            className="justify-left items-center"
+            src="/avit.png"
+            alt="illustration"
+            style={{ height: 100, width: "auto" }}
+          />
+          <img
+            className="justify-right items-center"
+            src="/design circle.jpg"
+            alt="illustration"
+            style={{ height: 100, width: "auto" }}
+          />
+        </div>
         <div className="flex flex-col jusitfy-center items-center sm:my-12 my-0">
           <div className="flex flex-col justify-center items-center mb-8">
             <h1 className="sm:text-5xl text-3xl font-semibold">
