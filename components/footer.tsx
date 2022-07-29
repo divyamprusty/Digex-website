@@ -11,6 +11,7 @@ function footer() {
         <div className='flex'>
           <a href="https://www.facebook.com/digexsociety"><FontAwesomeIcon icon={faFacebook} className='mr-2' style={{width: 22, height: 22}}/></a>
           <a href='https://www.instagram.com/digexsociety'><FontAwesomeIcon icon={faInstagram} className='mr-2' style={{width: 22, height: 22}}/></a>
+         {/* <a href='https://www.youtube.com/channel/UC9uzGoIrTWY1rlfsUQHHfFA'><FontAwesomeIcon icon={faYoutube} style={{width: 22, height: 22}}/></a> */}
           <a href='https://www.youtube.com/channel/UC9uzGoIrTWY1rlfsUQHHfFA'><FontAwesomeIcon icon={faYoutube} style={{width: 22, height: 22}}/></a>
         </div>
         <div className='flex flex-col items-center justify-center'>
