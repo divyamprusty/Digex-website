@@ -6,7 +6,10 @@
         "name": "Sana Chawla",
         "role": "Member"
       },
-     
+     {
+        "name": "Samiya Bhatia",
+        "role": "Member"
+      },
       {
         "name": "Ishita Bhargava",
         "role": "Member"
@@ -89,10 +92,7 @@
   {
     "year": "11th",
     "members": [
-       {
-        "name": "Samiya Bhatia",
-        "role": "Member"
-      },
+       
       {
         "name": "Smriti Srivastava",
         "role": "Member"
