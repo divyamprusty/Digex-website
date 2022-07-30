@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable jsx-a11y/aria-proptypes */
 /* eslint-disable @next/next/no-img-element */
 import { Container } from "@mui/material";
@@ -34,8 +35,8 @@ const Home: NextPage = () => {
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
-                <a href="https://drive.google.com/file/d/1VcMCfsKTYLlgim74s1CQRSvXf-untEvd/view?usp=sharing">
-                  Results{" "}
+                <a href="/results">
+                  Results 2022{" "}
                 </a>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
