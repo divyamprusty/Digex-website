@@ -38,8 +38,8 @@ const Home: NextPage = () => {
  </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
-                <a href="https://drive.google.com/file/d/1MOno8ZT91EjpLeuwzecmVHhG0CNlRvAN/view?usp=sharing">
-                  Event Invite{" "}
+                <a href="https://drive.google.com/file/d/1VcMCfsKTYLlgim74s1CQRSvXf-untEvd/view?usp=sharing">
+                  Results{" "}
                 </a>
               </div>
             </div>
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             />
           </video>
         </div> */}
-        <h3 className="flex text-4xl font-bold py-4 justify-center items-center">
+         {/*<h3 className="flex text-4xl font-bold py-4 justify-center items-center">
             Results Of Round 1 
 
           </h3>
@@ -79,17 +79,17 @@ const Home: NextPage = () => {
             alt="illustration"
             style={{ height: 800, width: "auto" }}
           />
-        </div>
-        {/* <div className="flex justify-center items-center mb-28">
+        </div> */}
+       <div className="flex justify-center items-center mb-28">
           <iframe
             width="800"
             height="450"
-            src="https://www.youtube.com/embed/5cFQ6YKTX_g"
+            src="https://www.youtube.com/embed/FsUrJB6QQYs"
             allow="autoPlay"
             frameBorder="0"
             allowFullScreen
           />
-        </div> */}
+        </div> 
 
         
         <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
