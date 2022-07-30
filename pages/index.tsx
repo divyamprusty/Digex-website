@@ -33,13 +33,14 @@ const Home: NextPage = () => {
               Puram.
             </p>
             <div className="f{/*lex px-16 w-3/4">
-              {/*<div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
-                <Link href="/events">Hi Res Topic 
- </Link>
-              </div>*/}
-              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
                 <a href="https://drive.google.com/file/d/1VcMCfsKTYLlgim74s1CQRSvXf-untEvd/view?usp=sharing">
                   Results{" "}
+                </a>
+              </div>
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
+                <a href="https://www.youtube.com/watch?v=y7gG_sJlCCw">
+                  Closing Ceremony{" "}
                 </a>
               </div>
             </div>
