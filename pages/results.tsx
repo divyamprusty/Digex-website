@@ -15,7 +15,14 @@ const Results: NextPage = () => {
       <Navbar/>
       <div className="text-center">
         <h1 className="text-5xl font-bold pt-16">Results 2022</h1>
+        <h3 className="flex text-2xl font-bold py-3 justify-center items-center">
+            
+          Winning Entries : <a href="https://drive.google.com/drive/folders/1TCjrnlts-dGWwwKy-1O7Ko8SdIwCWLA3?usp=sharing">  https://bit.ly/Digex2022Winners
+                
+                </a>
+          </h3>
         <div className="py-8">
+          
           <h1 className="text-3xl font-bold py-4">Overall Winner</h1>
           <p className="text-xl font-semibold">ITL Public School</p>
         </div>
