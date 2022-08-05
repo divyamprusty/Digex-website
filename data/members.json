@@ -4,29 +4,28 @@
     "members": [
       {
         "name": "Sana Chawla",
-        "role": "Member"
-      },
-     {
-        "name": "Samiya Bhatia",
-        "role": "Member"
+        "role": "President"
       },
       {
         "name": "Ishita Bhargava",
-        "role": "Member"
-      },
-      {
-        "name": "Aditya Banka",
-        "role": "Member"
+        "role": "President"
       },
       {
         "name": "Pratishtha Batra",
-        "role": "Member"
+        "role": "Vice-President"
+      },
+      {
+        "name": "Aditya Banka",
+        "role": "Senior Member"
       },
       {
         "name": "Ritvik Kumar",
-        "role": "Member"
+        "role": "Senior Member"
       },
-    
+      {
+         "name": "Samiya Bhatia",
+         "role": "Member"
+      },
       {
         "name": "Aaditya Gaur",
         "role": "Member"
