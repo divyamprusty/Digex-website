@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                   Invite 2023{" "}
                 </a>
               </div>
-              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
+              <div className="text-xl mt-4 sm:mt-0 font-medium flex justify-center align-center rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
                 <a href="/events">
                   Events{" "}
                 </a>
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
         </div> 
 
         
-        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16 py-25 px-40">
+        <div style={{ height: 250, width: "auto" }} className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           <h1 className="text-5xl font-semibold mb-4">Supported by</h1>
           <img
             className="justify-left items-center"
