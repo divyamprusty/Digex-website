@@ -73,8 +73,8 @@ export default function Navbar() {
                     <NavLink to="/about">
                         About
                     </NavLink>
-                    <NavLink to="/results">
-                        Results
+                    <NavLink to="/events">
+                        Events
                     </NavLink>
                     <NavLink to="/members">
                         Members

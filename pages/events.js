@@ -29,16 +29,13 @@ const Events = () => {
       <Container>
         <div>
           <h1 className="flex text-4xl font-bold py-4 justify-center items-center">
-            Digex 2022
+            Events 2023
           </h1>
-          <h3 className="flex text-2xl font-bold py-3 justify-center items-center">
-            Topic for Hi Res : Breaking the Fourth Wall with Silence
-
-          </h3>
-          <h3 className="flex text-2xl font-bold py-3 justify-center items-center">
+          
+          <h3 className="flex text-2xl font-bold py-3 justify-center mb-8 color-teal  items-center">
             
-           Submission Link for Hi Res : <a href="https://linktr.ee/Digex22"> https://linktr.ee/Digex22
-                 
+            <a style={{ color: "teal" }} href="https://docs.google.com/document/d/1eHrXkDUm1nmY8ecnGxFxr3RJ-tyH1lyfhM0TGIOOwBc/edit"> 
+            Digex Invite 
                 </a>
           </h3>
  
@@ -71,6 +68,7 @@ const Events = () => {
                       </h1>
                     </div>
                     <h1>{desc.description}</h1>
+                    <p style={{ color: "teal" }} className="flex justify-center mt-5 cursor-pointer font-bold"><a href="https://google.com">REGISTER</a></p>
                   </Card>
                 ))}
               </Grid>
