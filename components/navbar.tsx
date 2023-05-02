@@ -4,7 +4,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import DigexLogo from "../public/Digex-logo.png"
+import DigexLogo from "../public/Digex-black.png"
 
 function NavLink({to, children}) {
     return <a href={to} className={`ml-4`}>
@@ -22,8 +22,11 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     About
                 </a>
-                <a className="text-xl font-medium my-4" href="/results" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Results
+                <a className="text-xl font-medium my-4" href="/events" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Events
+                </a>
+                <a className="text-xl font-normal my-4" href="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Register
                 </a>
                 <a className="text-xl font-normal my-4" href="/members" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Members
@@ -31,9 +34,7 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="/alumni" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Alumni
                 </a>
-                <a className="text-xl font-normal my-4" href="https://linktr.ee/Digex22" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Links
-                </a>
+                
                 {/* <a className="text-xl font-normal my-4" href="/gallery" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Gallery
                 </a> */}
@@ -49,7 +50,7 @@ export default function Navbar() {
         <nav className="flex filter drop-shadow-md px-4 justify-around items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="">
-              <div className="text-xl flex items-center w-64 h-16">
+              <div className="text-xl flex items-center w-64 mt-2 h-16">
                 <Link href="/" passHref>
                   <Image src={DigexLogo} alt="DigexLogo"/>
                 </Link>
