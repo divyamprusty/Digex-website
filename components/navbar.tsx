@@ -76,15 +76,16 @@ export default function Navbar() {
                     <NavLink to="/events">
                         Events
                     </NavLink>
+                    <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform">
+                        Register
+                    </NavLink>
                     <NavLink to="/members">
                         Members
                     </NavLink>
                     <NavLink to="/alumni">
                         Alumni
                     </NavLink>
-                    <NavLink to="https://linktr.ee/Digex22">
-                        Links
-                    </NavLink>
+                    
                     {/* <NavLink to="/gallery">
                         Gallery
                     </NavLink> */}

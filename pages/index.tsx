@@ -94,7 +94,7 @@ const Home: NextPage = () => {
         </div> 
 
         
-        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
+        <div className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16 py-25 px-40">
           <h1 className="text-5xl font-semibold mb-4">Supported by</h1>
           <img
             className="justify-left items-center"
