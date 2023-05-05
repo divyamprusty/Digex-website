@@ -38,7 +38,7 @@ const Events = () => {
             Register
                 </a>
             <p className="px-5">|</p>
-                <a style={{ color: "teal" }} href="https://drive.google.com/file/d/1LuLjZm8oqdRNdp1kzqmj98KwBEtb1xLF/view?usp=sharing"> 
+                <a style={{ color: "teal" }} href="https://drive.google.com/file/d/1qkwSXzAT_qWYUtSoCVIHsYawcqG9xhxk/view?usp=sharing"> 
             Timeline
                 </a>
           </h3>
