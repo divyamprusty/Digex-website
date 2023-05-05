@@ -18,6 +18,9 @@ const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
 Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
+const onResumeClick = () => {
+  window.open("../timeline.png", '_blank');
+}
 
 const Events = () => {
   return (
@@ -40,7 +43,7 @@ const Events = () => {
             Register
                 </a>
                    <p className="px-5">|</p>  
-                <a style={{ color: "teal" }} class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1zrdGN84PQcAb8au7_Y64BzcImbh6d6-F/view?usp=sharing"> 
+                <a style={{ color: "teal" }} target="_blank" class="cta-btn cta-btn--resume" onClick={onResumeClick}> 
             Timeline
                 </a>
             
