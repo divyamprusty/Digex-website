@@ -37,6 +37,10 @@ const Events = () => {
             <a style={{ color: "teal" }} href="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform"> 
             Register
                 </a>
+            <p className="px-5">|</p>
+                <a style={{ color: "teal" }} href="https://drive.google.com/file/d/1LuLjZm8oqdRNdp1kzqmj98KwBEtb1xLF/view?usp=sharing"> 
+            Timeline
+                </a>
           </h3>
  
           
