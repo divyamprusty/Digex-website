@@ -12,15 +12,10 @@ import data from "../data/events.json";
 import Card from "../components/card";
 import PropTypes from "prop-types";
 
-
-
 const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
 Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
-const onResumeClick = () => {
-  window.open("../timeline.png", '_blank');
-}
 
 const Events = () => {
   return (
@@ -42,11 +37,6 @@ const Events = () => {
             <a style={{ color: "teal" }} href="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform"> 
             Register
                 </a>
-                   <p className="px-5">|</p>  
-                <a style={{ color: "teal" }} target="_blank" class="cta-btn cta-btn--resume" onClick={onResumeClick}> 
-            Timeline
-                </a>
-            
           </h3>
  
           
