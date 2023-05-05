@@ -19,7 +19,7 @@ Grid.propTypes = {
   children: PropTypes.node.isRequired,
 };
 const onResumeClick = () => {
-  window.open("../sched.pdf", '_blank');
+  window.open("../timeline.png", '_blank');
 }
 
 const Events = () => {
