@@ -43,7 +43,7 @@ const Events = () => {
                 </a>
           </h3>
            <h1 className="flex text-2xl font-bold py-4 justify-center items-center">
-            Prompt: Out of the Blue
+            Hi-Res Prompt: Out of the Blue
           </h1>
  
           
