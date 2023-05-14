@@ -33,10 +33,13 @@ const Home: NextPage = () => {
               The photography and film-making club at Delhi Public School R.K.
               Puram.
             </p>
+            <p className="text-lg sm:text-2xl px-16 pt-4 pb-12">
+              Hi-Res Prompt: Out of the Blue
+            </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
                 <a href="https://docs.google.com/document/d/1eHrXkDUm1nmY8ecnGxFxr3RJ-tyH1lyfhM0TGIOOwBc/edit">
-                  Invite 2023{" "}
+                  Invite{" "}
                 </a>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium flex justify-center align-center rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
