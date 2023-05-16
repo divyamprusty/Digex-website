@@ -29,12 +29,12 @@ const Home: NextPage = () => {
               <h1>Change your lens</h1>
               <h1>Change your story</h1>
             </div>
-            <p className="text-lg sm:text-2xl px-16 pt-4 pb-12">
+            <p className="text-lg sm:text-5l px-16 pt-4 pb-8">
               The photography and film-making club at Delhi Public School R.K.
               Puram.
             </p>
-            <p className="text-lg sm:text-2xl px-16 pt-4 pb-12">
-              Hi-Res Prompt: Out of the Blue
+            <p className="text-lg font-bold sm:text-2xl px-16 pt-0 pb-12">
+              HI-RES PROMPT  :  OUT OF THE BLUE
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
@@ -89,13 +89,13 @@ const Home: NextPage = () => {
           <iframe
             width="800"
             height="450"
-            src="https://www.youtube.com/embed/FsUrJB6QQYs"
+            src="https://www.youtube.com/embed/iaWEWmQLB1I"
             allow="autoPlay"
             frameBorder="0"
             allowFullScreen
           />
         </div> 
-
+        
         
         <div style={{ height: 250, width: "auto" }} className="mt-8 md:mt-0 flex flex-col justify-center items-center pb-16">
           <h1 className="text-5xl font-semibold mb-4">Supported by</h1>
