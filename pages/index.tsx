@@ -34,9 +34,9 @@ const Home: NextPage = () => {
               Puram.
             </p>
             <p className="text-lg font-bold sm:text-2xl px-16 pt-0 pb-12">
-            Hi-Res Submission Form    :  
+            Hi-Res :  
             <a style={{"color":"teal", "marginLeft":5}} href="https://forms.gle/EGSCgnW8MVsnNpR4A">
-            {"      "}Link
+            {"      "}Submission Form
 {" "}
                 </a>
             </p>

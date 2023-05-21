@@ -25,8 +25,8 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-medium my-4" href="/events" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Events
                 </a>
-                <a className="text-xl font-normal my-4" href="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Register
+                <a className="text-xl font-normal my-4" href="/results" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Results
                 </a>
                 <a className="text-xl font-normal my-4" href="/members" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Members
@@ -77,8 +77,8 @@ export default function Navbar() {
                     <NavLink to="/events">
                         Events
                     </NavLink>
-                    <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSeKlgXL_zNLO3B7aHv2YMwfkMp-UEbVp4JfyHDtLCD4hAGq3Q/viewform">
-                        Register
+                    <NavLink to="/results">
+                        Results
                     </NavLink>
                     <NavLink to="/members">
                         Members
